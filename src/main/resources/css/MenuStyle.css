@@ -1,0 +1,28 @@
+.text-field {
+
+    -fx-background-color: rgba(15, 38, 100, 0.5);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 7;
+    -fx-border-radius: 4;
+    -fx-border-width: 1;
+    -fx-min-width: 150;
+    -fx-border-color: #cccccc;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14;
+
+}
+
+.text-field:focused {
+    -fx-border-color: #ffffff;
+    -fx-background-color: rgba(15, 38, 100, 0.6);
+}
+
+.dialog-pane {
+    -fx-background-color: linear-gradient(to right, rgba(15, 38, 100, 0.5), rgba(193, 196, 213, 0.1));
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: linear-gradient(to right, rgba(15, 38, 100, 0.5), rgba(193, 196, 213, 0.1));
+
+}
+

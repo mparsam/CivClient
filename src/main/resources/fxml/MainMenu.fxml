@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane prefHeight="720" prefWidth="1280" stylesheets="@../css/MenuStyle.css"
+            xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="View.MainMenu">
+    <top>
+        <ImageView id="civ-logo" fitHeight="131.0" fitWidth="542.0" preserveRatio="true" translateY="86.0"
+                   BorderPane.alignment="BOTTOM_CENTER">
+            <Image url="@../images/civ_logo.png"/>
+        </ImageView>
+    </top>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="12.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button text="LoginMenu" onMouseClicked="#LoginMenu"/>
+                <Button text="Button"/>
+                <Button text="Button"/>
+                <Button text="Button"/>
+                <Button text="Button"/>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
